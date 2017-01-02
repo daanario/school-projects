@@ -1,4 +1,0 @@
-
-function findFakultet(n){
-	
-}
