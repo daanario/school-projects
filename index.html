@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 
 <html>
+
 	<head>
-		<script type="text/javascript" src="opg6-1.js"></script>
-		<script type="text/javascript" src="cordova.js"></script>
-		
+		<title>HTML5 touch event</title>
+		<meta http-equiv="Content-Type" content="text/html; charset-UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<!--<script type="text/javascript" src="cordova.js"></script>-->
+		<script type="text/javascript" src="triggeredjs.js"></script>
 	</head>
 	
-	<body>
-		<form name="rodfind">
-			<input type="text" name="ex"></input>
-			<input type="text" name="enn"></input>
-			<button type="button" onclick="findRod()"></button>
-			<p>Jag vill dö</p>
-		</form>
-		<div id="rod"></div>
+	<body onload="init()">
+		<h1>Test af touch event</h1>
+	
+		<div id="koordinater"></div>
+		<div id="touchzone">start touchområde</br></br></br></br></br></br></br></br></br></br></br></br>
+		slut</div>
 		
 	</body>
 
